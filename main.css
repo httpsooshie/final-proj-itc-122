@@ -1,0 +1,283 @@
+body {
+    font-family: Castellar, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffd8acf6; /* Background color for the body */
+}
+
+header {
+    background-color: #ffd8acf6; /* Header background color */
+    color: rgba(0, 0, 1, 0.592);
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    background-color: #ffd8acf6; /* H1 background color to match header */
+    color: rgba(105, 112, 27, 0.592);
+    padding: 1em 0;
+    text-align: center;
+}
+header h1 {
+    background-color: #ffd8acf6; /* Background color */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em 0;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+header h1:hover {
+    background-color: #321e0790; /* New background color on hover */
+    color: rgba(50, 30, 7, 0.8); /* New text color on hover */
+}
+
+header h1 {
+    background-color: #ffd8acf6; /* Background color */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgba(11, 15, 53, 0.592); /* Adjusted color to match header text */
+    text-decoration: none;
+}
+
+main {
+    background-color: rgba(50, 30, 7, 0.56); /* Main content background color */
+    padding: 20px;
+}
+
+footer {
+    background-color: none;
+    color: hsl(24, 16%, 94%); /* Adjusted text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100; /* Ensure footer is on top of other content */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjusts spacing between product cards */
+}
+
+.product-card {
+    border: 1px solid rgba(50, 30, 7, 0.56);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #fff; /* White background for product cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    border-radius: 5px; /* Rounded corners for product cards */
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.product-card h3 {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.product-card p {
+    color: #555;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for buttons */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(33, 136, 56, 0.5); /* Add custom focus outline */
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.product-card img:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgba(11, 15, 53, 0.592); /* Default text color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
+
+nav ul li a:hover {
+    background-color: #ffba6bdd; /* Background color on hover */
+    color: rgba(105, 112, 27, 0.592); /* Text color on hover */
+}
+
+/* Active link styles */
+nav ul li a.active {
+    background-color: #ffba6bdd; /* Background color when active */
+    color: rgba(105, 112, 27, 0.8); /* Text color when active */
+    font-weight: bold; /* Example: Make text bold when active */
+}
+header h1 {
+    background-color: #ffd8acf6; /* Background color for the header */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em;
+    text-align: center;
+    border: 2px solid #321e0790; /* Border style */
+    border-radius: 10px; /* Rounded corners */
+}
+section h2 {
+    background-color: #ffd8acf6; /* Background color */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em;
+    text-align: center;
+    border: 2px solid #321e0790; /* Border style */
+    border-radius: 10px; /* Rounded corners */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header h1 {
+    background-color: #ffd8acf6; /* Background color */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em 0;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out; /* Animation name, duration, and timing function */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+section h2 {
+    background-color: #ffd8acf6; /* Background color */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em 0;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out; /* Animation name, duration, and timing function */
+}
+section h2 {
+    background-color: #ffd8acf6; /* Background color */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em 0;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+section h2:hover {
+    background-color: #321e0790; /* New background color on hover */
+    color: rgba(50, 30, 7, 0.8); /* New text color on hover */
+}
+header h1 {
+    background-color: #ffd8acf6; /* Background color for the header */
+    color: rgba(105, 112, 27, 0.592); /* Text color */
+    padding: 1em;
+    text-align: center;
+    border: 2px solid #321e0790; /* Border style */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+header h1:hover {
+    transform: scale(1.1); /* Scale the h1 to 110% on hover */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgba(11, 15, 53, 0.592); /* Default text color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+nav ul li a:hover {
+    color: rgba(105, 112, 27, 0.592); /* Text color on hover */
+    transform: scale(1.1); /* Scale the link to 110% on hover */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgba(11, 15, 53, 0.592); /* Default text color */
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid transparent; /* Transparent border initially */
+    border-radius: 5px; /* Rounded corners for the border */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for border color */
+}
+
+nav ul li a:hover {
+    color: rgba(105, 112, 27, 0.592); /* Text color on hover */
+    border-color: #321e0790; /* Border color on hover */
+}
